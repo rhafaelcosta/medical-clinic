@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>17</java.version>
+		<model-mapper.version>3.0.0</model-mapper.version>
 	</properties>
 
 	<dependencies>
@@ -52,6 +53,12 @@
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>${model-mapper.version}</version>
 		</dependency>
 
 		<!-- Test Dependencies -->
